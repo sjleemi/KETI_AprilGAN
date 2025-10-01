@@ -6,7 +6,7 @@ import numpy as np
 import torch
 import os
 
-
+# commit test 
 class VisaDataset(data.Dataset):
 	def __init__(self, root, transform, target_transform, mode='test', k_shot=0, save_dir=None, obj_name=None):
 		self.root = root
